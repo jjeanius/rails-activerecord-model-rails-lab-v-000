@@ -3,7 +3,6 @@ class CreateStudents < ActiveRecord::Migration
     create_table :posts do |t|
       t.string :first_name
       t.string :last_name
-
-    end
   end
+
 end
